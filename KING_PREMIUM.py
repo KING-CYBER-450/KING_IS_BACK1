@@ -1,5 +1,5 @@
 import os, sys
 try:
-    __import__("qsbuy").jvl()
+    __import__("jvl").qsbuy()
 except Exception as e:
     exit(str(e))
